@@ -81,7 +81,7 @@ NTSTATUS IOCTLElevateHandle(_In_ WDFREQUEST Request, _In_ size_t OutputBufferLen
 	PULONG32 grantedAccessAddr = (ULONG32*)((ULONG64)handleAddress + of_HandleTableEntry.GrantedAccessBits);
 	ULONG32 handleAccessValue = *grantedAccessAddr;
 
-	handleAccessValue = handleAccessValue | (pProcInfo->newAccess & 0x1FFFFFF);
+	handleAccessValue = (handleAccessValue & 0xFE000000) | (pProcInfo->newAccess & 0x1FFFFFF);
 	*grantedAccessAddr = handleAccessValue;
 
 

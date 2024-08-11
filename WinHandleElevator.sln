@@ -14,7 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "includes", "includes", "{8A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{605449A1-16A7-40AA-ABD6-357D746D2ACD}"
 	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -36,8 +38,8 @@ Global
 		{A65D4E02-46B0-468E-8116-B481DE488945}.Release|x64.Build.0 = Release|x64
 		{F57FF289-3C69-43F2-B481-27AAC4F7FE5E}.Debug|ARM64.ActiveCfg = Debug|x64
 		{F57FF289-3C69-43F2-B481-27AAC4F7FE5E}.Debug|ARM64.Build.0 = Debug|x64
-		{F57FF289-3C69-43F2-B481-27AAC4F7FE5E}.Debug|x64.ActiveCfg = Debug|Win32
-		{F57FF289-3C69-43F2-B481-27AAC4F7FE5E}.Debug|x64.Build.0 = Debug|Win32
+		{F57FF289-3C69-43F2-B481-27AAC4F7FE5E}.Debug|x64.ActiveCfg = Debug|x64
+		{F57FF289-3C69-43F2-B481-27AAC4F7FE5E}.Debug|x64.Build.0 = Debug|x64
 		{F57FF289-3C69-43F2-B481-27AAC4F7FE5E}.Release|ARM64.ActiveCfg = Release|Win32
 		{F57FF289-3C69-43F2-B481-27AAC4F7FE5E}.Release|ARM64.Build.0 = Release|Win32
 		{F57FF289-3C69-43F2-B481-27AAC4F7FE5E}.Release|x64.ActiveCfg = Release|x64
