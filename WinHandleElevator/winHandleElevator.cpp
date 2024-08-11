@@ -40,6 +40,11 @@ int main()
     error = getDriverHandle(&hDevice);
     if (hDevice == INVALID_HANDLE_VALUE) {
         LogError("Failed to obtain driver handle. ErrorCode [0x%x]\n", error);
+
+        std::cout << "Press [enter] to continue > ";
+        std::cin.putback('\n');
+        ClearSTDIN();
+        ClearSTDIN();
         return -1;
     }
 
