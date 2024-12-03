@@ -1,4 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <SignMode>ProductionSign</SignMode>
+    <ProductionCertificate>C:\Dev\tools\msys64\home\user\tinyCA\codesigning.pfx</ProductionCertificate>
+    <CrossCertificateFile>E:\Windows Kits\10\CrossCertificates\10.0.22621.0\codesigning.crt</CrossCertificateFile>
+  </PropertyGroup>
 </Project>

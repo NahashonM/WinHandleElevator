@@ -94,6 +94,7 @@
     <Inf2CatUseLocalTime>true</Inf2CatUseLocalTime>
     <OutDir>$(SolutionDir)build\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)build\_objects\$(ProjectName)\</IntDir>
+    <TimeStampServer />
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
     <DebuggerFlavor>DbgengKernelDebugger</DebuggerFlavor>
