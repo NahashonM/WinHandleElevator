@@ -24,8 +24,8 @@ NTSTATUS WOBDriverInitWinVerOffsets() {
 	// major:minor 10:0
 	if (osInfo.majorVersion == 10 && osInfo.minorVersion == 0 ) {
 
-		// build:update 22631:2861
-		if (osInfo.buildNumber == 22631 && osInfo.updateRevision == 2861) {
+		// updateRevision seems to maintain same offsets && osInfo.updateRevision == 2861
+		if (osInfo.buildNumber == 22631 ) {
 			
 			of_EProcess.ObjectTable = 0x570;
 
